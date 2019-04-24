@@ -21,7 +21,7 @@ These are some basic functions that I used to produce images that helped me fini
 ## edges.py given 'cvtest.jpg', grayscales, blurs, and does edge detection (in that order) and writes the new image and a smaller, resized version to the repository root. 
 
 output_contour_resized.png:
-![edges.py output](https://github.com/anandijain/vision/blob/master/output_contour_resized.png)
+![edges.py output](https://github.com/anandijain/vision/blob/master/images/output_contour_resized.png)
 
 
 ## Now that I had the edges, all I needed to do was overlay the image and my mylar and trace. 
@@ -29,6 +29,6 @@ output_contour_resized.png:
  ### Now that both the mylar and the image were in the same 2D plane, I could simply watch the stream and trace.
  
  ### Using different combinations of the image mask/blend settings, I was able to trace using this:
-  * ![Edges and mylar](https://github.com/anandijain/vision/blob/master/edges_mylar.png)
-  * ![Photo and mylar](https://github.com/anandijain/vision/blob/master/photo_mylar.png)
-  * ![Edges, photo, and mylar](https://github.com/anandijain/vision/blob/master/edges_photo_mylar.png)
+  * ![Edges and mylar](https://github.com/anandijain/vision/blob/master/images/edges_mylar.png)
+  * ![Photo and mylar](https://github.com/anandijain/vision/blob/master/images/photo_mylar.png)
+  * ![Edges, photo, and mylar](https://github.com/anandijain/vision/blob/master/images/edges_photo_mylar.png)
