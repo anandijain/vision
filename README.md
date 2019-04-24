@@ -1,4 +1,4 @@
-# Github repo for On Images, Spring 2019
+# On Images, Spring 2019
 
 ## For assignment 2, we had to use mylar to recreate a 3D image by taping the mylar to a window and drawing the contour.
 
