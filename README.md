@@ -30,7 +30,7 @@ output_contour_resized.png:
  
  ### Using different combinations of the image mask/blend settings:
   * Edges and mylar
-   * ![Edges and mylar](https://github.com/anandijain/vision/blob/master/images/edges_mylar.png)
+   * ![Edges and mylar](https://github.com/anandijain/vision/blob/master/images/edges_mylar_resized.png)
   * Photo and mylar
    * ![Photo and mylar](https://github.com/anandijain/vision/blob/master/images/photo_mylar_resized.png)
   * Edges, photo, and mylar
