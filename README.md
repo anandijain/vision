@@ -6,7 +6,7 @@ I found this incredibly difficult, as it required me to close an eye and stay in
 
 For every new line I added, I had to check roughly half of the lines already on the mylar to make sure that I was still in the correct position.
 
-This algorithm is O(n^2) because for each new line added, a linear proportion of other existing lines must be checked.
+This algorithm is O(n^2) because for each new line added, a linear proportion of existing lines must be checked.
 
 After about an hour, it became obvious that I needed a better solution.
 
