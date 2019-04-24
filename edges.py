@@ -19,8 +19,8 @@ if __name__ == "__main__":
     blur = cv2.GaussianBlur(gray, (11, 11), 0)
     canny = cv2.Canny(gray, 150, 300)
     res = cv2.resize(canny, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_CUBIC)
-    # cv2.imwrite('output_contour.png',  canny)
-    # cv2.imwrite('output_contour_resized.png',  res)
+    cv2.imwrite('output_contour.png',  canny)
+    cv2.imwrite('output_contour_resized.png',  res)
     cv2.imshow('canny', res)
     cv2.waitKey(0)
 
