@@ -28,7 +28,10 @@ output_contour_resized.png:
  ### Using [OBS](https://obsproject.com/), and a camera hung from above, I was able to use the filter effects in OBS to add the image and the edges as overlay to the mylar. 
  ### Now that both the mylar and the image were in the same 2D plane, I could simply watch the stream and trace.
  
- ### Using different combinations of the image mask/blend settings, I was able to trace using this:
-  * ![Edges and mylar](https://github.com/anandijain/vision/blob/master/images/edges_mylar.png)
-  * ![Photo and mylar](https://github.com/anandijain/vision/blob/master/images/photo_mylar.png)
-  * ![Edges, photo, and mylar](https://github.com/anandijain/vision/blob/master/images/edges_photo_mylar.png)
+ ### Using different combinations of the image mask/blend settings:
+  * Edges and mylar
+   * ![Edges and mylar](https://github.com/anandijain/vision/blob/master/images/edges_mylar.png)
+  * Photo and mylar
+   * ![Photo and mylar](https://github.com/anandijain/vision/blob/master/images/photo_mylar.png)
+  * Edges, photo, and mylar
+   * ![Edges, photo, and mylar](https://github.com/anandijain/vision/blob/master/images/edges_photo_mylar.png)
