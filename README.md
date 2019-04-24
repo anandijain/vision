@@ -8,6 +8,8 @@ For every new line I added, I had to check roughly half of the lines already on 
 
 This algorithm is O(n^2) because for each new line added, a linear proportion of existing lines must be checked.
 
+The algorithm to draw with aligned perspectives has a constant time insert because no other lines need to be referred to, therefore O(n) time. 
+
 After about an hour, it became obvious that I needed a better solution.
 
 OpenCV is a python package that allows for image transformations and uses numpy for data/array management.
