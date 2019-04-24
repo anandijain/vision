@@ -10,7 +10,7 @@ if __name__ == "__main__":
     gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
     blur = cv2.GaussianBlur(gray, (11, 11), 0)
     canny = cv2.Canny(gray, 150, 300)
-    res = cv2.resize(canny, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_CUBIC)
+    res = cv2.resize(canny, None, fx=0.25, fy=0.25, interpolation=cv2.INTER_CUBIC)
     
     cv2.imwrite('images/output_contour.png',  canny)
     cv2.imwrite('images/output_contour_resized.png',  res)
