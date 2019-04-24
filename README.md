@@ -35,3 +35,7 @@ output_contour_resized.png:
    * ![Photo and mylar](https://github.com/anandijain/vision/blob/master/images/photo_mylar.png)
   * Edges, photo, and mylar
    * ![Edges, photo, and mylar](https://github.com/anandijain/vision/blob/master/images/edges_photo_mylar.png)
+
+# Final Drawing
+
+![Final Drawing](https://github.com/anandijain/vision/blob/master/images/final_drawing_resized.png)
