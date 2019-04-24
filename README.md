@@ -19,8 +19,6 @@ These are some basic functions that I used to produce images that helped me fini
     * [click here](https://docs.opencv.org/3.1.0/da/d22/tutorial_py_canny.html) for more details on the math of edge detection.
     
 ## edges.py given 'cvtest.jpg', grayscales, blurs, and does edge detection (in that order) and writes the new image and a smaller, resized version to the repository root. 
-
-output_contour_resized.png:
 ![edges.py output](https://github.com/anandijain/vision/blob/master/images/output_contour_resized.png)
 
 
