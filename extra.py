@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('images/nba.mp4')
+cap = cv2.VideoCapture('images/microfile.mp4')
 
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 100,
@@ -24,20 +24,19 @@ p0 = cv2.goodFeaturesToTrack(old_gray, mask = None, **feature_params)
 
 # Create a mask image for drawing purposes
 mask = np.zeros_like(old_frame)
-i = 0
+x = 0
 
 while True:
-    i += 1
+    x += 1
     ret, frame = cap.read()
     frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    if i % 3 == 0:
-        p0 = cv2.goodFeaturesToTrack(old_gray, mask = None, **feature_params)
+    # if x % 3 == 0:
+    p0 = cv2.goodFeaturesToTrack(old_gray, mask = None, **feature_params)
 
     # calculate optical flow
     p1, st, err = cv2.calcOpticalFlowPyrLK(old_gray, frame_gray, p0, None, **lk_params)
-    print(st)
-    if st is None:
+    # if st is None:
 
     # Select good points
     good_new = p1[st==1]
@@ -50,9 +49,14 @@ while True:
         mask = cv2.line(mask, (a,b),(c,d), color[i].tolist(), 2)
         frame = cv2.circle(frame,(a,b),5,color[i].tolist(),-1)
 
+    # if x % 30 == 0:
+    #     img = cv2.add(frame,mask)
+    # else:
+    #     img = frame
     img = cv2.add(frame,mask)
 
-    cv2.imshow('frame',img)
+
+    cv2.imshow('frame', img)
     cv2.waitKey(0)
     # if k == 27:
         # break
@@ -61,3 +65,5 @@ while True:
     old_gray = frame_gray.copy()
     p0 = good_new.reshape(-1,1,2)
 
+cap.release()
+cv2.destroyAllWindows()
