@@ -1,4 +1,4 @@
-# deprecated, see my learning repocv2
+# deprecated, see my learning repo
 
 # On Images, Spring 2019
 
